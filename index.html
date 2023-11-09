@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <style>
+    body, html {
+        height: 100%;
+        margin: 0;
+    }
+
+    main {
+        
+        overflow-y: scroll;
+        height: 100vh; /* Set the height of the main container to the full viewport height */
+        scroll-snap-type: y mandatory;
+    }
+
+    section {
+        height: 100vh;
+        
+        scroll-snap-align: start;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        height: 100vh;
+        width: 1550px;
+        margin: 0px;
+    }
+
+
+
+
+
+
+/*-----------------------------*/
+
+header{
+    
+    width: 100vw;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+
+    position: fixed;
+    top: 1vh;
+
+
+
+}
+.navbar{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.logo{
+   margin-top: 3vh;
+   margin-left: 3vh;
+   font-size: 40px;
+}
+
+.search{
+    margin-top: 5vh;
+    position: absolute;
+    left: 45vh;
+
+}
+.searchbar{
+   height: 4vh;
+   width: 17vw;
+   background-color: transparent;
+   border: black;
+   border-bottom: 2px solid rgb(0, 0, 0);
+   font-size: 15px;
+   color: rgb(0, 0, 0);
+}
+.searchbtn{
+   
+   background-color: transparent;
+   
+   border: none;
+   font-size: 24px;
+   color: rgb(0, 0, 0);
+}
+.menu{
+    margin-top: 4vh;
+    margin-right: 0vh;
+    font-size: larger;
+    display: flex;
+    margin-left: 40vh;
+    
+    
+    
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+    
+}
+.link{
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    margin-right: 3VW;
+}
+
+.link:hover{
+    border-bottom: 4px solid black;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    transition: .5s;
+}
+.menubar{
+    color: rgb(5, 5, 5);
+    
+    text-decoration: none;
+}
+.listtwo{
+    display: none;
+}
+/*-----------------------------*/
+.ek{
+    height: 6vh;
+    width: 15vw;
+    position: fixed;
+    top: 90vh;
+    left: 55vw;
+}
+.do{
+    height: 6vh;
+    width: 15vw;
+    position: fixed;
+    TOP: 90vh;
+    left: 35vw;
+}
+button{
+    background-color: transparent;
+    letter-spacing: 4px;
+    
+    cursor: pointer;
+}
+button:hover{
+    background-color: gray;
+    border-radius: 40px;
+    
+}
+
+
+/*------------------------------------responsive---------------------------------------*/
+
+
+
+
+@media (max-width: 600px) {
+    header{
+        height: 5.7vh;
+        width: 100vw;
+        background-color: transparent;
+        
+    
+    }
+
+ .menu{
+    display: none;
+
+ }
+ .menubar{
+   
+    
+    text-decoration: none;
+}
+ .listtwo{
+    display: flex;
+ }
+
+ .logo{
+    font-size: 17px;
+    font-weight: 700;
+ }
+ 
+ .search{
+    margin-top: 1vh;
+    position: absolute;
+    left: 24vh;
+
+}
+.searchbar{
+   height: 4vh;
+   width: 35vw;
+   background-color: transparent;
+   border: black;
+   border-bottom: 2px solid rgb(0, 0, 0);
+   font-size: 15px;
+   color: rgb(0, 0, 0);
+}
+.searchbtn{
+   
+   background-color: transparent;
+   
+   border: none;
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+}
+
+
+ .ek{
+    height: 6vh;
+    width: 30vw;
+    position: fixed;
+    top: 90vh;
+    left: 60vw;
+}
+.do{
+    height: 6vh;
+    width: 30vw;
+    position: fixed;
+    TOP: 90vh;
+    left: 15vw;
+}
+button{
+    background-color: transparent;
+    letter-spacing: 2px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+
+main {
+        
+        overflow-y: scroll;
+        height: 100vh; /* Set the height of the main container to the full viewport height */
+        scroll-snap-type: y mandatory;
+    }
+
+    section {
+        height: 100vh;
+        
+        scroll-snap-align: start;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        height: 100vh;
+        width: 1550px;
+        margin: 0px;
+    }
+
+
+
+}
+
+
+
+   </style>
+</head>
+<body>
+
+
+
+    
+
+
+
+
+
+
+
+    <main>
+        <section class="one">
+            <img src="images/container-house-isolated-background_258219-611.jpg" alt="">
+        </section>
+        <section class="two">
+            <img src="images/grid-shipping-container-home-generative-ai_438099-11531.avif" alt="">
+        </section>
+        <section class="three">
+            <img src="images/istockphoto-1133768876-612x612.jpg" alt="">
+        </section>
+        <section class="four">
+            <img src="images/istockphoto-1432314418-612x612.jpg" alt="">
+        </section>
+        <section class="five">
+            <img src="images/istockphoto-586207694-612x612.jpg" alt="">
+        </section>
+        <section class="six">
+            <img src="images/istockphoto-830353566-612x612.jpg" alt="">
+        </section>
+        <section class="seven">
+            <img src="images/premium_photo-1663090645309-20260a359602.avif" alt="">
+        </section>
+    </main>
+
+
+
+
+
+
+
+    <header>
+        <div class="navbar">
+
+        
+            <div class="logo">LOGO</div>
+            <div class="search">
+                <input type="text" name="query" placeholder="zoekopdracht..." class='searchbar'>
+            <button type="submit" value="zoekopdracht" class='searchbtn'><i class="fa fa-search" ></i></button>
+            </div>
+            <div class="menu">
+                <ul class='list'>
+                    <li class="listone"><a href="#" class="link">Thuis</a></li>
+                    <li class="listone"><a href="#" class="link">Producten</a></li>
+                    <li class="listone"><a href="#" class="link">Diensten</a></li>
+                    <li class="listone"><a href="#" class="link">Over ons</a></li>
+                    <li class="listone"><a href="#" class="link">Contact ons</a></li>
+                   
+                
+                    </ul>
+               
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    
+
+    
+
+<div class="buttons">
+    <div class="search">
+        <a href="billoikonomoy3@gmail.com"> <button class='do'><strong>Invest Now</strong></button></a>
+        <a href="billoikonomoy3@gmail.com"> <button class='ek'><strong> Order Now</strong></button></a>
+  </div>
+</div>
+
+
+
+</body>
+</html>
